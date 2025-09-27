@@ -11,12 +11,12 @@ const appId = process.env.NEXT_PUBLIC_FIREBASE_APP_ID;
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDuQrLnjv5Whubm0BB9i3kJfKEucZlihok",
-  authDomain: "hackgtemergency.firebaseapp.com",
-  projectId: "hackgtemergency",
-  storageBucket: "hackgtemergency.firebasestorage.app",
-  messagingSenderId: "191835712001",
-  appId: "1:191835712001:web:d9721ef8e271217bfbee00"
+  apiKey: apiKey,
+  authDomain: authDomain,
+  projectId: projectId,
+  storageBucket: storageBucket,
+  messagingSenderId: messagingSenderId,
+  appId: appId
 };
 firebase.initializeApp(firebaseConfig);
 
